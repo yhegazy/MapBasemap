@@ -2,7 +2,7 @@ import React from 'react'
 import L from 'leaflet'
 import { MapContainer, TileLayer, Marker, Popup, LayersControl } from 'react-leaflet'
 
-export default function Location() {
+export default function MapBasemap() {
 
     const lat = 55.702868
     const lng = 37.530865
